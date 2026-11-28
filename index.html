@@ -53,6 +53,8 @@ select,input{font:inherit;padding:10px;border-radius:8px;border:1px solid var(--
 .scroll{overflow-x:auto}
 pre.spec{background:#1a0d07;color:#f5e6d8;padding:18px;border-radius:12px;white-space:pre-wrap;font-size:.85rem;line-height:1.5}
 pre.art{background:#1a0d07;color:#d9a77a;padding:14px;border-radius:12px;font-size:.62rem;line-height:1.05;overflow-x:auto}
+/* The ASCII art lives in its own block: lines never wrap, the font scales with the viewport, and it scrolls sideways if still too wide. */
+.art{display:block;white-space:pre;overflow-x:auto;font-size:clamp(.3rem,1.15vw,.7rem);line-height:1.05;background:#0d0603;color:#d9a77a;padding:10px;border-radius:8px;margin:8px 0}
 footer{text-align:center;padding:30px 20px;font-size:.85rem;opacity:.75}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -160,11 +162,7 @@ Requirements:
 - Do not print only the word KITKAT, do not draw a plain rectangle, do not make a tiny drawing. Make your own original composition, not a copy of the example below.
 - Say plainly that it is character art, not a photograph.
 
-Minimal structural example (yours should be far larger and more detailed):
-                                                                                 
-                                                                                                                                         
-                                                                                                                                         
-                                                                                                                                         
+Minimal structural example (yours should be far larger and more detailed):<span class="art">
      ...      ...                                                                                                            ...    ...  
 .........::::::..........                                                                                       .........:+++==--:::.....
 .-++++++*********-.............          .............                 ...    ...    ......  ........    ...  ........:+**************+-.
@@ -196,13 +194,7 @@ Minimal structural example (yours should be far larger and more detailed):
 .:===++++++++=......                                                                                                 ....:+***+++++===:..
 ...................                                                                                                  ....................
 .................                                                                                                    ....................
-                                                                                                                                         
-                                                                                                                                         
-                                                                                                                                         
-                                                                                                                                                                                                                                                             
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-
+</span>
 STEP 7 - FINAL RESPONSE
 Present, in order: (1) the reconsidered answer, (2) the additional creative action, (3) the character reconstruction, (4) a short KitKat-themed ending.
 
